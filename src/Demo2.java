@@ -1,3 +1,4 @@
+
 public class Demo2 {
     int i;
     char c;
@@ -12,6 +13,17 @@ public class Demo2 {
     }
     public static void main(String[] args) {
         System.out.println("Hello this is demo2");
+        String s= "abc";
+        switch (s){
+            case "abc":
+                System.out.println("I am String abc");
+                break;
+            case "nmn":
+                System.out.println("I am nmn");
+                break;
+                default:
+                    System.out.println("this is Default");
+        }
         Demo2 d=new Demo2();
 
     }
